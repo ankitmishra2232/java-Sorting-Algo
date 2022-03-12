@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('Non-Parallel Stage') {
             agent{
-                label "master"
+                label "main"
             }
             steps{
                 echo 'This stage will be executed first'
